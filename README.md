@@ -1,8 +1,7 @@
 # TCP Server-Client-Chat-Application
-Overview
-This project is a basic chat application using TCP, built in Java. It enables clients to connect to a central server and exchange messages in real-time. The server supports multiple clients simultaneously by managing each connection in a separate thread. Messages sent by any client are received and distributed by the server to all connected clients.
+This project is a simple chat application using TCP, developed in Java. It allows multiple clients to connect to a central server and exchange messages in real-time. The server manages each client in a separate thread, ensuring smooth communication. When a client sends a message, the server receives it and relays it to all other connected clients.
 
 Technologies Used
-Java: The programming language for both the server and client implementations.
-TCP/IP: The communication protocol that ensures reliable data transfer between the client and server.
-Sockets: Java’s Socket and ServerSocket classes handle network communication and connection management.
+Java: Used to implement both the server and client.
+TCP/IP: Ensures reliable communication between the server and clients.
+Sockets: Java’s Socket and ServerSocket classes handle network connections and data exchange.
